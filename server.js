@@ -1,7 +1,7 @@
 const fs=require('fs');
 const express=require('express');
 const app=express();
-const home=fs.readFileSync('./zpay.html');
+const home=fs.readFileSync('./index.html');
 const payment=fs.readFileSync('./payment.html');
 const contact=fs.readFileSync('./contact.html');
 
