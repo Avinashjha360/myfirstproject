@@ -1,9 +1,9 @@
 const fs=require('fs');
 const express=require('express');
 const app=express();
-const home=fs.readFileSync('./index.html');
-const payment=fs.readFileSync('./payment.html');
-const contact=fs.readFileSync('./contact.html');
+const home=fs.readFileSync('./inde.html');
+const payment=fs.readFileSync('./paymen.html');
+const contact=fs.readFileSync('./contac.html');
 
 const port=900;
 
