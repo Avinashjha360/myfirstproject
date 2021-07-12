@@ -8,6 +8,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="./static/css/Zstyle.css">
     <link rel="stylesheet" href="./static/css/formstyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
     </div>
     <div id="header">
         <div id="nav1">
-
+            <span class="material-icons md-50" id="menu" onclick="menuchange()" >menu</span>
         </div>
         <div id="nav2">
             <ul>
@@ -27,6 +28,14 @@
                 <li><a href="contact.html" style="color: rgb(250, 235, 24);">CONTACT</a></li>
             </ul>
         </div>
+    </div>
+    <div id="menu_bar">
+        <ul>
+            <li><a href="index.html"><span class="material-icons md-45" style="display: inline-block;">home</span>HOME</li></a>
+            <li><a href=""><span class="material-icons md-45">payment</span>ACCOUNT</a></li>
+            <li><a href="payment.html"><span class="material-icons md-45">payments</span>PAYMENT</a></li>
+            <li><a href="contact.html" style="color: rgb(250, 235, 24);"><span class="material-icons md-45">contact_mail</span>CONTACT</a></li>
+        </ul>
     </div>
     <div id="home">
         <div id="home_content">
@@ -67,8 +76,8 @@
                         <h4>Are you 18+<input type="checkbox" name="Eligible" class="inputstyle2"></h4>
                     </div><br>
                     <textarea type="detail" name="More_info">Some More Detail...</textarea>
-                    <div><input type="submit" value="submit"style=" display: block; background-color: #ff8d00; margin: auto; cursor: pointer; width:450px  "><br>
-                        <input type="reset"style=" display: block; margin: auto; cursor: pointer; background-color: brown; width: 450px;">
+                    <div><input type="submit" value="submit"id="submit"><br>
+                        <input type="reset"id="reset">
                     </div>
                 </form>
             </div>
@@ -89,6 +98,7 @@
         </div>
     </div>
 
+    <script src="./static/js/frontend.js"></script>
 </body>
 
 </html>
