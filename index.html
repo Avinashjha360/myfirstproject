@@ -5,38 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./static/css/Zstyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    
 </head>
 
 <body>
     <div id="topnav">
-        <span id="head">WElCOME MERCHANTS</span>
+        <span id="head" >WElCOME MERCHANTS</span>
         <span>Hope you All are doing well.</span>
-    </div>
+    </div> 
     <div id="header">
         <div id="nav1">
-
-        </div>
+            <span class="material-icons md-50" id="menu" onclick="menuchange()">menu</span>
+        </div> 
         <div id="nav2">
             <ul>
-                <li><a href="index.html"  style="color: rgb(250, 235, 24);">HOME</a></li>
-                <li><a href="">ACCOUNT</a></li>
-                <li><a href="payment.html">PAYMENT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="index.html"  style="color: rgb(250, 235, 24);"><span class="material-icons md-15">home</span>HOME</a></li>
+                <li><a href=""><span class="material-icons md-15">payment</span>ACCOUNT</a></li>
+                <li><a href="payment.html"><span class="material-icons md-15">payment</span>PAYMENT</a></li>
+                <li><a href="contact.html"><span class="material-icons md-15">contact_mail</span>CONTACT</a></li>
             </ul>
         </div>
     </div>
+    <div id="menu_bar">
+        <ul>
+            <li><a href="index.html"  style="color: rgb(250, 235, 24);"><span class="material-icons md-45" style="display: inline-block;">home</span>HOME</li></a>
+            <li><a href=""><span class="material-icons md-45">payment</span>ACCOUNT</a></li>
+            <li><a href="payment.html"><span class="material-icons md-45">payments</span>PAYMENT</a></li>
+            <li><a href="contact.html"><span class="material-icons md-45">contact_mail</span>CONTACT</a></li>
+        </ul>
+    </div>
     <div id="home">
         <div id="home_content">
-            <h2>Serving you Since 1989.</h2><br>
+            <h2>Serving you Since 1989.</h2><br><br>    
             <p>Thank You for Choosing us</p>
             <p>We are waiting for your response</p>
             <p>We are Working for you</p>
             <button>PAY NOW</button>
         </div>
     </div>
-    <div class="container">
+     <div class="container">
         <div class="box1">
             <div class="inside_box1">
                 <div class="text_item">
@@ -74,6 +84,7 @@
             </div>
         </div>
     </div>
+    
     <div class="container">
         <div class="box3">
             <div class="text_content2">
@@ -88,6 +99,8 @@
         </div>
     </div>
 
+    
+    <script src="./static/js/frontend.js"></script>
 </body>
 
 </html>
