@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment</title>
     <link rel="stylesheet" href="./static/css/Zstyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
     </div>
     <div id="header">
         <div id="nav1">
-
+            <span class="material-icons md-50" id="menu" onclick="menuchange()" >menu</span>
         </div>
         <div id="nav2">
             <ul>
@@ -26,6 +27,14 @@
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </div>
+    </div>
+    <div id="menu_bar">
+        <ul>
+            <li><a href="index.html"  style="color: rgb(250, 235, 24);"><span class="material-icons md-45" style="display: inline-block;">home</span>HOME</li></a>
+            <li><a href=""><span class="material-icons md-45">payment</span>ACCOUNT</a></li>
+            <li><a href="payment.html"><span class="material-icons md-45">payments</span>PAYMENT</a></li>
+            <li><a href="contact.html"><span class="material-icons md-45">contact_mail</span>CONTACT</a></li>
+        </ul>
     </div>
     <div id="home">
         <div id="home_content">
@@ -88,6 +97,7 @@
         </div>
     </div>
 
+    <script src="./static/js/frontend.js"></script>
 </body>
 
 </html>
